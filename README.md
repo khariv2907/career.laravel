@@ -41,4 +41,6 @@ php artisan key:generate
 Go to your project root directory and run:
 ```bash
 sudo find . -type f -exec chmod 644 {} \;
+sudo find . -type d -exec chmod 755 {} \;
+sudo chmod -R 777 ./storage ./bootstrap/cache/ ./node_modules/
 ```
